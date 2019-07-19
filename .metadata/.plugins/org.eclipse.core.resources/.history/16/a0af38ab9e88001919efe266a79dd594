@@ -1,0 +1,15 @@
+package com.codingdojo.objectmaster;
+
+public class HumanTest {
+	public static void main(String[] args) {
+		Human b= new Human();
+		b.attackTown();
+		b.attackTown();
+		b.attackTown();
+		b.eatHumans();
+		b.eatHumans();
+		b.fly();
+		b.fly();
+		b.displayEnergy();
+	}
+}

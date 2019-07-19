@@ -1,0 +1,21 @@
+package com.codingdojo.objectmaster;
+
+public class HumanTest {
+	public static void main(String[] args) {
+		Human a= new Human();
+		Human b= new Human();
+		System.out.println(b.getHealth());
+		b.getStrength();
+		b.getIntelligence();
+		b.getStealth();
+		a.getHealth();
+		a.getStrength();
+		a.getIntelligence();
+		a.getStealth();
+		a.attack(b);
+		b.getHealth();
+		b.getStrength();
+		b.getIntelligence();
+		b.getStealth();
+		}
+}

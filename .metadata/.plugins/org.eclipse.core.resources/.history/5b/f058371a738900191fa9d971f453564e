@@ -1,0 +1,11 @@
+package com.codingdojo.pokemon;
+
+public class Pokemon {
+	private String name;
+	private Integer health;
+	private String type;
+	
+	public void attack(Pokemon pokemon) {
+		pokemon.health-=10;
+	}
+}

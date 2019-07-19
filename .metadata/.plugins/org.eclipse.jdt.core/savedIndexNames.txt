@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+D:\Coding Dojo Workspace\JavaSTS\.metadata\.plugins\org.eclipse.jdt.core
+2281279252.index
+4104800168.index
+1353394168.index
+3294775327.index
+3720170394.index
+3385345767.index
+2300716779.index
+3982501292.index
+422488386.index
+3676228353.index
+2441938283.index

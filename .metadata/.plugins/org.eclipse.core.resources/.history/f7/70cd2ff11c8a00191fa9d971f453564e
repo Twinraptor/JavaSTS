@@ -1,0 +1,12 @@
+package com.codingdojo.calculator;
+
+public class Calculator {
+	public Double operandOne;
+	public Double operandTwo;
+	public String operation;
+	public Double results;
+
+	public Double performOperation() {
+		if 
+	}
+}

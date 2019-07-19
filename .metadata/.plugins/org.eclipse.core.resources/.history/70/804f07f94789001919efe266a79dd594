@@ -1,0 +1,41 @@
+package com.codingdojo.bankaccount;
+import java.util.Random;
+
+public class BankAccount {
+	private String accountNumber;
+	private Double checkingBalance;
+	private Double savingsBalance;
+	private static Integer totalAccounts;
+	public static Double totalBalance;
+	public Integer getAccountNumber() {
+		return accountNumber;
+	}
+	public void setAccountNumber(Integer accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+	public Double getCheckingBalance() {
+		return checkingBalance;
+	}
+	public void setCheckingBalance(Double checkingBalance) {
+		this.checkingBalance = checkingBalance;
+	}
+	public Double getSavingsBalance() {
+		return savingsBalance;
+	}
+	public void setSavingsBalance(Double savingsBalance) {
+		this.savingsBalance = savingsBalance;
+	}
+	
+	private Long getRandomAcc() {
+		Random rand = new Random();
+		Long x = new Long("10000000000");
+		Long temp = rand.nextLong();
+	}
+	public BankAccount(String accountNumber, double checkingBalance, double SavingsBalance) {
+		this.accountNumber= accountNumber;
+		this.checkingBalance = checkingBalance;
+		this.savingsBalance = SavingsBalance;
+	}
+
+	
+}

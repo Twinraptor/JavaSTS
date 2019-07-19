@@ -1,0 +1,22 @@
+package com.codingdojo.zookeeper;
+
+public class Mammal {
+	private int energyLevel;
+	
+	public int displayEnergy() {
+		System.out.println(this.energyLevel);
+		return this.energyLevel;
+	}
+	public void throwSomethign() {
+		System.out.println("Chucking rocks!");
+		this.energyLevel -= 5;
+	}
+	public void eatBananas() {
+		System.out.println("Bananas have a peel");
+		this.energyLevel += 10;
+	}
+	public void climb() {
+		System.out.println("Climbing");
+		this.energyLevel -= 10;
+	}
+}

@@ -1,0 +1,7 @@
+package com.codingdojo.pokemon;
+
+public class AbstractPokemon implements Pokemoninterface {
+	public Pokemon createPokemon() {
+		
+	}
+}

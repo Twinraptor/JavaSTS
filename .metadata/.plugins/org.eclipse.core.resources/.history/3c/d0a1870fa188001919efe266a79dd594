@@ -1,0 +1,9 @@
+package com.codingdojo.objectmaster;
+
+public class Wizard extends Human {
+	public Integer health = 50;
+	public Integer intelligence = 8;
+	
+	public void heal(Human target) {
+		target.super.heal(this.intelligence);	}
+}

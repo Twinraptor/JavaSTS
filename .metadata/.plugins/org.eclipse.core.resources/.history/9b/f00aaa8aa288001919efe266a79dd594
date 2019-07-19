@@ -1,0 +1,10 @@
+package com.codingdojo.objectmaster;
+
+public class Ninja {
+	private Integer stealth = 10;
+	
+	public void steal(Human target) {
+		target.takeDamage(this.stealth);
+		this.healing(this.stealth);
+	}
+}

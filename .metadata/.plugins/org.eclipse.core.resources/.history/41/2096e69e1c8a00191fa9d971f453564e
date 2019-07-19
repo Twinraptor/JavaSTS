@@ -1,0 +1,19 @@
+package com.codingdojo.calculator;
+
+public class Calculator {
+	public Double operandOne;
+	public Double operandTwo;
+	public String operation;
+	public Double setOperandOne(Double x) {
+		return x;
+	}
+	public Double setOperandTwo(Double y) {
+		return y;
+	}
+	public String setOperation(String oper) {
+		return oper;
+	}
+	public Double performOperation() {
+		if 
+	}
+}

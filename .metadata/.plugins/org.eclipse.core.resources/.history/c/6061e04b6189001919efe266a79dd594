@@ -1,0 +1,9 @@
+package com.codingdojo.bankaccount;
+
+public class BankAccountTest {
+	public static void main(String[] arge) {
+		BankAccount b= new BankAccount();
+		
+		System.out.println(BankAccount.getTotalAccounts);
+	}
+}
